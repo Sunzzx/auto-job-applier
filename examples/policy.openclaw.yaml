@@ -1,0 +1,46 @@
+database_path: ".job-agent/job_agent.db"
+artifacts_dir: ".job-agent/artifacts"
+tracker_markdown_path: ".job-agent/applications.md"
+portals_config_path: "examples/portals.example.yaml"
+states_config_path: "templates/states.yml"
+submit_mode: "autonomous"
+max_search_results_per_source: 30
+max_apply_per_run: 100
+allow_domains_for_submit:
+  - "anthropic.com"
+  - "greenhouse.io"
+  - "job-boards.greenhouse.io"
+  - "boards.greenhouse.io"
+  - "jobs.lever.co"
+  - "linkedin.com"
+  - "www.linkedin.com"
+  - "jobs.ashbyhq.com"
+  - "jobs.workable.com"
+  - "apply.workable.com"
+  - "jobs.smartrecruiters.com"
+  - "careers.recruitee.com"
+  - "jobs.personio.com"
+  - "bamboohr.com"
+  - "remoteok.com"
+deny_domains:
+  - "indeed.com"
+stop_on_missing_answers: false
+headless_browser: true
+auto_upload_resume: true
+skip_domains_with_recent_blockers: false
+blocked_domain_cooldown_hours: 1
+notifications:
+  enabled: false
+  backend: "mail_app"
+  recipient: ""
+  sender: ""
+  subject_prefix: "[Job Agent]"
+  include_notes: true
+search:
+  use_career_ops_portals: false
+  use_greenhouse: false
+  use_lever: false
+  use_remoteok: false
+  use_web_search: true
+  use_extra_apply_platforms: false
+  use_linkedin: true

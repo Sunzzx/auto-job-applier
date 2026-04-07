@@ -1,0 +1,50 @@
+title_filter:
+  positive:
+    - "Software Engineer"
+    - "Backend"
+    - "Platform"
+    - "AI"
+    - "ML"
+    - "LLM"
+    - "Agent"
+  negative:
+    - "Junior"
+    - "Intern"
+    - "Sales"
+    - "Designer"
+    - "Java "
+  seniority_boost:
+    - "Senior"
+    - "Staff"
+    - "Principal"
+    - "Lead"
+
+search_queries:
+  - name: "Greenhouse backend"
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "backend engineer" remote ai'
+    enabled: true
+  - name: "Lever AI roles"
+    query: 'site:jobs.lever.co "AI engineer" OR "LLM engineer" OR "backend engineer" remote'
+    enabled: true
+  - name: "Ashby AI roles"
+    query: 'site:jobs.ashbyhq.com "AI engineer" OR "platform engineer" remote'
+    enabled: true
+
+tracked_companies:
+  - name: "Anthropic"
+    careers_url: "https://job-boards.greenhouse.io/anthropic"
+    api: "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs"
+    enabled: true
+  - name: "OpenAI"
+    careers_url: "https://openai.com/careers"
+    scan_method: "websearch"
+    scan_query: 'site:openai.com/careers "software engineer" OR "backend" OR "platform"'
+    enabled: true
+  - name: "ElevenLabs"
+    careers_url: "https://jobs.ashbyhq.com/elevenlabs"
+    scan_method: "websearch"
+    scan_query: 'site:jobs.ashbyhq.com/elevenlabs "engineer"'
+    enabled: true
+  - name: "Scale AI"
+    careers_url: "https://jobs.lever.co/scaleai"
+    enabled: true

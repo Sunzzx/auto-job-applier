@@ -1,0 +1,22 @@
+database_path: ".job-agent/job_agent.db"
+artifacts_dir: ".job-agent/artifacts"
+tracker_markdown_path: ".job-agent/applications.md"
+portals_config_path: "examples/portals.example.yaml"
+states_config_path: "templates/states.yml"
+submit_mode: "guarded"
+max_search_results_per_source: 40
+max_apply_per_run: 5
+allow_domains_for_submit:
+  - "greenhouse.io"
+  - "jobs.lever.co"
+deny_domains:
+  - "indeed.com"
+  - "linkedin.com"
+stop_on_missing_answers: true
+headless_browser: false
+auto_upload_resume: true
+search:
+  use_greenhouse: true
+  use_lever: true
+  use_remoteok: true
+  use_web_search: true

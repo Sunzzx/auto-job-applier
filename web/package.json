@@ -1,0 +1,22 @@
+{
+  "name": "job-agent-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "NODE_OPTIONS='--localstorage-file=.next/node-localstorage' next dev",
+    "build": "NODE_OPTIONS='--localstorage-file=.next/node-localstorage' next build",
+    "start": "NODE_OPTIONS='--localstorage-file=.next/node-localstorage' next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.3.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "typescript": "5.8.3"
+  }
+}

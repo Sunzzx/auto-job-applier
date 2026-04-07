@@ -1,0 +1,88 @@
+identity:
+  full_name: "Your Name"
+  email: "you@example.com"
+  phone: "+91-9999999999"
+  location: "Bengaluru, India"
+  linkedin: "https://www.linkedin.com/in/your-profile"
+  github: "https://github.com/your-handle"
+  portfolio: "https://your-portfolio.dev"
+  website: "https://your-portfolio.dev"
+
+work_preferences:
+  titles:
+    - "Software Engineer"
+    - "Backend Engineer"
+    - "AI Engineer"
+  keywords:
+    - "python"
+    - "llm"
+    - "backend"
+    - "distributed systems"
+  preferred_locations:
+    - "Remote"
+    - "Bengaluru"
+    - "India"
+    - "Europe"
+  remote_only: false
+  visa_sponsorship_required: false
+  minimum_salary:
+    currency: "INR"
+    amount: 2500000
+  excluded_keywords:
+    - "sales"
+    - "commission only"
+  target_seniority:
+    - "mid"
+    - "senior"
+
+materials:
+  resume_path: "/absolute/path/to/resume.pdf"
+  cover_letter_path: ""
+  additional_files: []
+
+employment:
+  years_of_experience: 5
+  current_title: "Software Engineer"
+  skills:
+    - "Python"
+    - "TypeScript"
+    - "FastAPI"
+    - "PostgreSQL"
+    - "LLM systems"
+  industries:
+    - "AI"
+    - "SaaS"
+  work_authorization:
+    india: true
+    united_states: false
+    european_union: false
+
+education:
+  degree: "B.Tech"
+  field: "Computer Science"
+  institution: "Example Institute"
+  graduation_year: 2020
+
+answers:
+  sponsorship_required: "No"
+  willing_to_relocate: "Yes"
+  years_of_experience: "5"
+  expected_ctc: "2500000 INR"
+  notice_period: "30 days"
+  current_company: "Example Corp"
+  current_ctc: "1800000 INR"
+  linkedin: "https://www.linkedin.com/in/your-profile"
+  github: "https://github.com/your-handle"
+
+target_companies:
+  greenhouse_boards:
+    - "openai"
+    - "anthropic"
+  lever_companies:
+    - "scaleai"
+    - "notion"
+
+search:
+  default_queries:
+    - "site:greenhouse.io software engineer remote ai"
+    - "site:jobs.lever.co backend engineer remote"

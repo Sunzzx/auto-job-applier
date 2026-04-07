@@ -1,0 +1,135 @@
+identity:
+  full_name: "OpenClaw User"
+  email: "user@example.com"
+  phone: "+00 0000000000"
+  location: "Remote / India"
+  linkedin: "https://linkedin.com/in/example-profile"
+  github: "https://github.com/example-user"
+  portfolio: ""
+  website: ""
+work_preferences:
+  titles:
+    - "AI Engineer"
+    - "Backend Engineer"
+    - "Software Engineer"
+    - "ML Engineer"
+    - "Data Scientist"
+  keywords:
+    - "Python"
+    - "Machine Learning"
+    - "Data Science"
+    - "TypeScript"
+    - "Java"
+    - "C++"
+    - "SQL"
+    - "Pandas"
+    - "NumPy"
+    - "scikit-learn"
+    - "TensorFlow"
+    - "PyTorch"
+    - "JavaScript"
+    - "React"
+    - "Next.js"
+    - "Node.js"
+    - "Express"
+    - "Django"
+  preferred_locations:
+    - "Remote"
+    - "Bangalore"
+    - "New Delhi"
+    - "India"
+  remote_only: false
+  visa_sponsorship_required: false
+  minimum_salary:
+    currency: "INR"
+    amount: 1200000
+  excluded_keywords:
+    - "sales"
+    - "commission only"
+    - "android"
+    - "ios"
+  target_seniority:
+    - "entry"
+    - "junior"
+    - "mid"
+materials:
+  resume_path: "/absolute/path/to/resume.pdf"
+  cover_letter_path: ""
+  additional_files: []
+employment:
+  years_of_experience: 2
+  current_title: "Student / Software Developer"
+  skills:
+    - "Python"
+    - "Machine Learning"
+    - "Data Science"
+    - "TypeScript"
+    - "Java"
+    - "C++"
+    - "SQL"
+    - "Pandas"
+    - "NumPy"
+    - "scikit-learn"
+    - "TensorFlow"
+    - "PyTorch"
+    - "JavaScript"
+    - "React"
+    - "Next.js"
+    - "Node.js"
+    - "Express"
+    - "Django"
+    - "Flask"
+    - "FastAPI"
+    - "Docker"
+    - "Kubernetes"
+    - "AWS"
+    - "Azure"
+    - "GCP"
+    - "Git"
+    - "GitHub Actions"
+    - "REST APIs"
+    - "GraphQL"
+    - "PostgreSQL"
+    - "MySQL"
+    - "MongoDB"
+    - "Redis"
+    - "Firebase"
+    - "Supabase"
+    - "HTML/CSS"
+    - "R"
+    - "Go"
+    - "Data Analysis"
+    - "Statistics"
+    - "Deep Learning"
+    - "NLP"
+    - "Data Engineering"
+  industries:
+    - "AI"
+    - "Software"
+    - "Data"
+  work_authorization:
+    india: true
+education:
+  degree: "Bachelor of Science in Computer Science and Data Analytics"
+  field: "Computer Science and Data Analytics"
+  institution: "Example University"
+  graduation_year: 2026
+answers:
+  sponsorship_required: "No"
+  willing_to_relocate: "No"
+  years_of_experience: "2"
+  linkedin: "https://linkedin.com/in/example-profile"
+  github: "https://github.com/example-user"
+target_companies:
+  greenhouse_boards:
+    - "anthropic"
+    - "intercom"
+    - "openai"
+  lever_companies:
+    - "scaleai"
+    - "notion"
+search:
+  default_queries:
+    - "site:boards.greenhouse.io OR site:job-boards.greenhouse.io AI engineer remote India"
+    - "site:jobs.lever.co backend engineer remote India"
+    - "site:jobs.ashbyhq.com software engineer ai remote"

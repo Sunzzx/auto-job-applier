@@ -1,0 +1,10 @@
+.venv/
+.job-agent/
+__pycache__/
+*.pyc
+src/*.egg-info/
+src/job_agent.egg-info/
+.DS_Store
+build/
+web/node_modules/
+web/.next/
